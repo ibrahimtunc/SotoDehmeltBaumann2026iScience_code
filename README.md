@@ -18,3 +18,5 @@ Data analysis and model simulation codes for Soto et al. 2026
 * **requirements.txt**: List of libraries with their versions needed for the codebase
 * **saccade_overshoots.py**: Analysis script for the saccade overshoots
 * **zfish_check_file_names.py**: Generates a metadata summary file for the given dataset. Note this needs to be run separately.
+
+### contact: itunc@uni-koeln.de, ibrahimalperentunc@protonmail.com
