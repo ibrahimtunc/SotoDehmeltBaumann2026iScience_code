@@ -12,6 +12,7 @@ Data analysis and model simulation codes for Soto et al. 2026
 * **NoiseComparison_ControlModel.m:** This function runs the closed-loop control system described in [Crevecoeur & Kording, eLife 2017](http://doi.org/10.7554/eLife.25073)
 * **NoiseComparison_MakeFigures.m:** This script generate figures of simulation results, comparing macaque-like to zebrafish-like saccadic suppression.
 
+### contact: florian.dehmelt@hhu.de 
 
 ## Motor noise estimation
 
