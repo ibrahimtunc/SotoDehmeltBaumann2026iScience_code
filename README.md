@@ -1,6 +1,18 @@
 # SotoDehmeltBaumann2026iScience_code
 Data analysis and model simulation codes for Soto et al. 2026
 
+## Closed-loop control model
+
+- Run NoiseComparison.m for the entire simulation pipeline including visualisations.
+
+### Codebase structure
+
+* **NoiseComparison.m:** This script sets the two main sensory and motor noise parameters, runs simulations, and plots results.
+* **NoiseComparison_SimulateNoise.m:** This function sets all other parameters, configures preliminary visualisations, and calls the control model.
+* **NoiseComparison_ControlModel.m:** This function runs the closed-loop control system described in [Crevecoeur & Kording, eLife 2017](http://doi.org/10.7554/eLife.25073)
+* **NoiseComparison_MakeFigures.m:** This script generate figures of simulation results, comparing macaque-like to zebrafish-like saccadic suppression.
+
+
 ## Motor noise estimation
 
 - Run main.py for the entire analysis pipeline. Optionally, running zfish_check_file_names.py generates a metadata summary file for the zebra fish dataset.
